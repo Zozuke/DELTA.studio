@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzsRNXZZljUHwA8WQtcBwy9j9t5ea-uIe68Woo6O0RKmOW0OIiRi8q9Slv&s=10">
+    <title>Fx Delta</title>
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Q2LB7T3VX8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-Q2LB7T3VX8');
+    </script>
+
+    <style>
+        /* Fondo degradado */
+        body {
+    background: linear-gradient(45deg, #ff6ec4, #7873f5);
+    min-height: 100vh; /* Cambio de height a min-height */
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Cambio de center a flex-start */
+    padding-top: 20px; /* Añadir espacio en la parte superior */
+}
+
+        /* Contenedor principal */
+        .contenedor {
+            margin-top: 5%;
+            max-width: 900px;
+            width: 90%;
+            padding: 25px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: aparecer 1s ease-in-out;
+        }
+
+        /* Título principal */
+        .titulo-principal {
+            color: #ff4081;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            margin-bottom: 10px;
+        }
+
+        /* Subtítulo */
+        .subtitulo {
+            color: #3f51b5;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        
+        #info{
+            text-align:center;
+            padding: 15px;
+            margin: 15px 0;
+            background: rgba(240, 240, 240, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Secciones individuales */
+       #contacto, #servicios {
+            padding: 15px;
+            margin: 15px 0;
+            background: rgba(240, 240, 240, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Botón llamativo */
+        .boton {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 1.2em;
+            color: white;
+            background: linear-gradient(45deg, #ff4081, #3f51b5);
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+
+        .boton:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Animación */
+        @keyframes aparecer {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Consultas de medios para pantallas más pequeñas */
+        @media (max-width: 768px) {
+            .contenedor {
+                margin-top: 10%;
+                padding: 15px;
+            }
+
+            .titulo-principal {
+                font-size: 2em;
+            }
+
+            .subtitulo {
+                font-size: 1.2em;
+            }
+
+            .boton {
+                font-size: 1em;
+                padding: 10px 20px;
+            }
+
+            #info, #servicios, #contacto {
+                margin: 10px 0;
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .titulo-principal {
+                font-size: 1.8em;
+            }
+
+            .subtitulo {
+                font-size: 1.1em;
+            }
+
+            .boton {
+                font-size: 0.9em;
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo-principal">Fx Delta</h1>
+        <h2 class="subtitulo">Innovación en desarrollo web</h2>
+    </div>
+    
+    <!-- Sección de Información -->
+    <div id="info">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una empresa enfocada en brindar soluciones digitales para todo tipo de negocios,<br><br>nuestra intención es darte lo mejor de lo mejor para que tengas las herramientas para que tu negocio trabaje por ti, contamos con <strong> soporte tecnico</strong> para resolver problemas malas escritas en tu web o creaciones de paginas web.</p>
+        <h2>porque hacemos esto</h2>
+        <p>sabemos que es dificil trabajar y al mismo tiempo buscar clientes o tienes un negocio donde los clientes quieren buscar informacion entre otras cosas la cual hay que estar repitiendo todo a cada cliente pir eso es mejor tener una web para que visualizen y busquen las cosas que nesesitan,<br><br>
+        
+        <h4>otro ejemplo </h4><br>
+        tambien podemos vreacrear una web para generar dinero con otros clientes potenciales o marketing,<br>puedes crear una web y monetizarlos para ganar dinero co anuncios con link de afiliados</p>
+    </div>
+
+    <!-- Sección de Servicios -->
+    <div id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Diseño y desarrollo web</li>
+            <li>Marketing digital</li>
+            <li>Optimización SEO</li>
+        </ul>
+    </div>
+
+    <!-- Sección de Contacto -->
+    <div id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: contacto@fxdelta.com</p>
+        <p>Teléfono: +52 123 456 7890</p>
+    </div>
+
+    <a href="#" class="boton">Explorar</a>
+    
+</body>
+</html>
